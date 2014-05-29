@@ -1,0 +1,439 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"locale",
+				"locale"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"cl",
+				"click"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rpg_dice_roller.gemspec",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 292.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"rubycop",
+				"RuboCop: Check all open Ruby files (run extra Rails cops)"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Status"
+			],
+			[
+				"git cu",
+				"Git: Custom Command"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git push ",
+				"Git: Push Current Branch"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git stage",
+				"Git: Diff Staged"
+			],
+			[
+				"git stag",
+				"Git: Stash Changes"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"rubocop",
+				"RuboCop: Toggle auto check"
+			],
+			[
+				"rubo",
+				"RuboCop: Toggle auto check"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 548.0
+	},
+	"console":
+	{
+		"height": 242.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/william/rubygems/rpg_dice_roller/README.md",
+		"/home/william/railsstuff/depot/app/views/line_items/_line_item.html.haml",
+		"/home/william/railsstuff/depot/config/locales/en.yml",
+		"/home/william/railsstuff/depot/app/views/layouts/application.html.haml",
+		"/home/william/railsstuff/depot/app/views/orders/_form.html.haml",
+		"/home/william/railsstuff/depot/app/helpers/orders_helper.rb",
+		"/home/william/railsstuff/depot/config/locales/es.yml",
+		"/home/william/railsstuff/depot/config/initializers/i18n.rb",
+		"/home/william/railsstuff/depot/app/views/orders/new.html.haml",
+		"/home/william/railsstuff/depot/app/controllers/application_controller.rb",
+		"/home/william/railsstuff/depot/app/assets/stylesheets/application.css.scss",
+		"/home/william/railsstuff/depot/app/controllers/store_controller.rb",
+		"/home/william/railsstuff/depot/config/routes.rb",
+		"/home/william/railsstuff/depot/app/views/store/index.html.haml",
+		"/home/william/railsstuff/depot/app/controllers/orders_controller.rb",
+		"/home/william/railsstuff/depot/app/views/carts/_cart.html.haml",
+		"/home/william/railsstuff/depot/app/controllers/sessions_controller.rb",
+		"/home/william/railsstuff/depot/app/views/sessions/new.html.haml",
+		"/home/william/railsstuff/depot/app/models/user.rb",
+		"/home/william/railsstuff/depot/app/controllers/users_controller.rb",
+		"/home/william/railsstuff/depot/test/controllers/sessions_controller_test.rb",
+		"/home/william/railsstuff/depot/app/controllers/carts_controller.rb",
+		"/home/william/railsstuff/depot/app/controllers/line_items_controller.rb",
+		"/home/william/railsstuff/depot/test/test_helper.rb",
+		"/home/william/railsstuff/depot/app/views/admin/index.html.haml",
+		"/home/william/railsstuff/depot/app/helpers/application_helper.rb",
+		"/home/william/railsstuff/depot/app/controllers/admin_controller.rb",
+		"/home/william/railsstuff/depot/app/controllers/products_controller.rb",
+		"/home/william/railsstuff/depot/app/models/order.rb",
+		"/home/william/railsstuff/depot/config/application.rb",
+		"/home/william/railsstuff/depot/config/environments/development.rb",
+		"/home/william/railsstuff/depot/config/environments/production.rb",
+		"/home/william/railsstuff/depot/app/mailers/order_notifier.rb",
+		"/home/william/railsstuff/depot/test/mailers/order_notifier_test.rb",
+		"/home/william/railsstuff/depot/test/controllers/users_controller_test.rb",
+		"/home/william/railsstuff/depot/test/fixtures/users.yml",
+		"/home/william/railsstuff/depot/app/views/users/index.html.haml",
+		"/home/william/railsstuff/depot/app/views/users/_form.html.haml",
+		"/home/william/railsstuff/depot/app/views/order_notifier/shipped.text.erb",
+		"/home/william/railsstuff/depot/test/fixtures/line_items.yml",
+		"/home/william/railsstuff/depot/app/views/order_notifier/received.html.haml",
+		"/home/william/railsstuff/depot/app/views/order_notifier/shipped.html.haml",
+		"/home/william/railsstuff/depot/app/views/order_notifier/received.text.erb",
+		"/home/william/railsstuff/depot/app/views/line_items/_line_item.text.erb",
+		"/home/william/railsstuff/depot/.rubocop.yml",
+		"/home/william/railsstuff/depot/db/migrate/20140511235520_create_orders.rb",
+		"/home/william/railsstuff/depot/db/seeds.rb",
+		"/home/william/railsstuff/depot/app/models/pay_type.rb",
+		"/home/william/railsstuff/depot/db/schema.rb",
+		"/home/william/railsstuff/depot/config/environments/test.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140510235236_create_line_items.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140512204322_create_payment_types.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140511021628_combine_items_in_cart.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140511235536_add_order_to_line_item.rb",
+		"/home/william/railsstuff/depot/app/models/payment_type.rb",
+		"/home/william/railsstuff/depot/test/controllers/orders_controller_test.rb",
+		"/home/william/railsstuff/depot/app/views/line_items/create.js.erb",
+		"/home/william/railsstuff/depot/app/views/line_items/decrement.js.erb",
+		"/home/william/railsstuff/depot/test/controllers/products_controller_test.rb",
+		"/home/william/railsstuff/depot/app/views/products/who_bought.atom.builder",
+		"/home/william/railsstuff/depot/app/models/product.rb",
+		"/home/william/railsstuff/depot/test/fixtures/orders.yml",
+		"/home/william/railsstuff/depot/app/models/line_item.rb",
+		"/home/william/railsstuff/depot/app/assets/stylesheets/orders.css.scss",
+		"/home/william/railsstuff/depot/test/models/line_item_test.rb",
+		"/home/william/railsstuff/depot/test/controllers/line_items_controller_test.rb",
+		"/home/william/railsstuff/depot/app/assets/javascripts/store.js.coffee",
+		"/home/william/railsstuff/depot/app/views/carts/destroy.js.erb",
+		"/home/william/railsstuff/depot/app/views/line_items/destroy.js.erb",
+		"/home/william/railsstuff/depot/Gemfile",
+		"/home/william/railsstuff/depot/app/assets/javascripts/application.js",
+		"/home/william/railsstuff/depot/app/assets/stylesheets/carts.css.scss",
+		"/home/william/railsstuff/depot/app/views/carts/show.html.haml",
+		"/home/william/railsstuff/depot/test/models/product_test.rb",
+		"/home/william/railsstuff/depot/app/models/cart.rb",
+		"/home/william/railsstuff/depot/test/fixtures/carts.yml",
+		"/home/william/railsstuff/depot/app/views/products/show.html.haml",
+		"/home/william/railsstuff/depot/app/views/products/index.html.haml",
+		"/home/william/railsstuff/depot/test/models/cart_test.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140511160434_add_price_to_line_items.rb",
+		"/home/william/railsstuff/depot/test/controllers/carts_controller_test.rb",
+		"/home/william/railsstuff/depot/db/migrate/20140511155834_add_price_to_line_items.rb",
+		"/home/william/railsstuff/depot/app/views/carts/show.json.jbuilder",
+		"/home/william/railsstuff/depot/app/assets/stylesheets/store.css.scss",
+		"/home/william/railsstuff/depot/db/migrate/20140511002618_add_quantity_to_line_items.rb",
+		"/home/william/railsstuff/depot/app/models/concerns/current_cart.rb",
+		"/home/william/railsstuff/depot/app/views/carts/index.html.haml",
+		"/home/william/railsstuff/depot/app/views/line_items/index.html.haml",
+		"/home/william/railsstuff/depot/app/views/line_items/show.html.haml",
+		"/home/william/railsstuff/depot/test/controllers/store_controller_test.rb",
+		"/home/william/railsstuff/depot/config/newrelic.yml",
+		"/home/william/railsstuff/depot/app/assets/stylesheets/products.css.scss",
+		"/home/william/railsstuff/depot/Guardfile",
+		"/home/william/railsstuff/depot/test/fixtures/products.yml",
+		"/home/william/railsstuff/depot/app/views/layouts/application_notused.html.erb",
+		"/home/william/railsstuff/depot/app/views/products/_form.html.haml",
+		"/home/william/railsstuff/depot/app/views/products/index.json.jbuilder",
+		"/home/william/railsstuff/depot/config/unicorn.rb",
+		"/home/william/railsstuff/depot/app/views/products/_form.html.erb",
+		"/home/william/railsstuff/depot/config/database.yml",
+		"/home/william/railsstuff/depot/db/migrate/20140510011245_create_products.rb",
+		"/home/william/railsstuff/depot/Procfile",
+		"/home/william/railsstuff/depot/db/migrate/20140509233221_create_products.rb",
+		"/home/william/.config/sublime-text-3/Packages/RuboCop/RuboCop.sublime-settings",
+		"/home/william/railsstuff/myapp/Procfile",
+		"/home/william/railsstuff/myapp/app/controllers/welcome_controller.rb",
+		"/home/william/railsstuff/myapp/config/unicorn.rb",
+		"/home/william/railsstuff/myapp/Gemfile",
+		"/home/william/railsstuff/myapp/config/routes.rb",
+		"/home/william/railsstuff/myapp/app/views/welcome/index.html.erb",
+		"/home/william/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/william/.gem/ruby/2.1.0/gems/thor-0.19.1/lib/thor.rb",
+		"/home/william/.gem/ruby/2.1.0/gems/thread_safe-0.3.1/lib/thread_safe.rb",
+		"/home/william/.gem/ruby/2.1.0/gems/json-1.8.1/lib/json/common.rb",
+		"/home/william/.config/sublime-text-3/Packages/User/RuboCop.sublime-settings",
+		"/home/william/.config/sublime-text-3/Packages/RuboCop/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"action_mailer",
+			"Product",
+			"precompile",
+			"compress",
+			"static_cache"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rpg_dice_roller.gemspec",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 92.0
+	},
+	"project": "rpg_dice_roller.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 502.0,
+		"selected_items":
+		[
+		],
+		"width": 382.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
