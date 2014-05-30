@@ -6,7 +6,11 @@ This is a dice roller module for Ruby, intended to support a wide variety of var
 
 ## Installation
 
-Install using 'gem install rpg_dice_roller'. If intending to intergreate into a project using Gemfiles, add this module to your project's Gemfile using:
+The installation of this gem is pretty standard:
+
+    gem install rpg_dice_roller
+
+If intending to integrate into a project using Bundler, add this module to your project's Gemfile using:
 
     gem 'rpg_dice_roller'
 
@@ -27,4 +31,4 @@ Currently only supports simple dice rolls.
 
 ## Contributing
 
-Be sure to [fork the project](https://github.com/[my-github-username]/rpg_dice_roller/fork) and make a new branch for your feature. When you feel it's ready to be constributed, make a pull request for said feature.
+Be sure to [fork the project](https://github.com/William-Imm/rpg_dice_roller/fork) and make a new branch for your feature. When you feel you are ready to contribute the feature, make a pull request.
