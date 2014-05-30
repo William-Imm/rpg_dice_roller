@@ -7,12 +7,12 @@ module RpgDiceRoller
         @sides = sides
       else
         match_array = /(\d*)d(\d+)/.match(sides)
-        @sides = match_array[2]
+        @sides = match_array[2].to_i
       end
     end
 
     def roll
-      25
+      rand(sides) + 1
     end
   end
 end

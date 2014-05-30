@@ -6,10 +6,10 @@ When(/^I roll the die$/) do
   @result = @die.roll
 end
 
-Then(/^I should see a result above "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then(/^I should see a result above or equal to "(.*?)"$/) do |lower|
+  expect(@result).to be >= lower.to_i
 end
 
-Then(/^I should see a result below "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+Then(/^I should see a result below or equal to "(.*?)"$/) do |upper|
+  expect(@result).to be <= upper.to_i
 end

@@ -5,8 +5,8 @@ If this feature doesn't work, then the whole module might as well be unusable.
 Scenario Outline: Rolling one die
   Given I have a die of "<type>"
   When I roll the die
-  Then I should see a result above "<lower>"
-  And I should see a result below "<upper>"
+  Then I should see a result above or equal to "<lower>"
+  And I should see a result below or equal to "<upper>"
 
   Examples:
     | type | lower | upper |
