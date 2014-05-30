@@ -1,5 +1,7 @@
 # RpgDiceRoller
 
+[![Build Status](https://travis-ci.org/William-Imm/rpg_dice_roller.svg?branch=testing)](https://travis-ci.org/William-Imm/rpg_dice_roller)
+
 TODO: Write a gem description
 
 ## Installation
