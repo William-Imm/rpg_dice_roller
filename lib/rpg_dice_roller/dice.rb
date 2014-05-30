@@ -9,8 +9,10 @@ module RpgDiceRoller
   #   die.sides   #=> 20
   #   die.roll    #=> random number between 1 and 20
   class Dice
+    # The number of faces the die has.
     attr_accessor :sides
 
+    # Creates a die. The number of sides can be inputted as a number or as a string of the format "{x}d{x}".
     def initialize(sides)
       if sides.is_a? Fixnum
         @sides = sides
