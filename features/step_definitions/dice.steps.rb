@@ -1,5 +1,5 @@
-Given(/^I have a die of "(.*?)"$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
+Given(/^I have a die of "(.*?)"$/) do |die_type|
+  @die = RpgDiceRoller.createDice(die_type)
 end
 
 When(/^I roll the die$/) do
