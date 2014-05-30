@@ -1,5 +1,5 @@
 Given(/^I have a die of "(.*?)"$/) do |die_type|
-  @die = RpgDiceRoller.createDice(die_type)
+  @die = RpgDiceRoller::Dice(die_type)
 end
 
 When(/^I roll the die$/) do
