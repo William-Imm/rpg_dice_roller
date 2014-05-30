@@ -2,7 +2,7 @@ require 'bundler/gem_tasks'
 require 'cucumber'
 require 'cucumber/rake/task'
 require 'rdoc/task'
-require "rspec/core/rake_task"
+require 'rspec/core/rake_task'
 
 Cucumber::Rake::Task.new(:features) do |t|
   t.cucumber_opts = 'features --format pretty'
@@ -14,5 +14,5 @@ RDoc::Task.new do |rdoc|
 end
 
 RSpec::Core::RakeTask.new(:spec) do |spec|
-  t.ruby_opts = %w[-w]
+  spec.ruby_opts = %w(-w)
 end

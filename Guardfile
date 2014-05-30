@@ -13,14 +13,14 @@ guard :spork do
 end
 
 group :test_and_refactor, halt_on_fail: true do
-  guard :cucumber do
+  guard :cucumber, :cmd => "--drb" do
     watch(%r{^features/.+\.feature$})
     watch(%r{^features/support/.+$})          { 'features' }
     watch(%r{^features/step_definitions/(.+)_steps\.rb$}) { |m| Dir[File.join("**/#{m[1]}.feature")][0] || 'features' }
     watch(%r{^lib/(.+)\.rb$})     { 'features' }
   end
 
-  guard :rspec do
+  guard :rspec, :cmd => "--drb" do
     watch(%r{^spec/.+_spec\.rb$})
     watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
     watch('spec/spec_helper.rb')  { "spec" }
@@ -28,6 +28,8 @@ group :test_and_refactor, halt_on_fail: true do
 
   guard :rubocop do
     watch(%r{.+\.rb$})
+    watch('Rakefile')
     watch(%r{(?:.+/)?\.rubocop\.yml$}) { |m| File.dirname(m[0]) }
+    watch(/^.+\.gemspec/)
   end
 end

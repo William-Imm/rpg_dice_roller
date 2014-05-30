@@ -1,0 +1,5 @@
+AllCops:
+  Exclude:
+    - !ruby/regexp /old_and_unused\.rb$/
+LineLength:
+  Max: 100
