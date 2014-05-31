@@ -9,7 +9,7 @@ before_install:
   - gem update --system
 jdk:
   oraclejdk7
-script: 'bundle exec rake features'
+script: 'bundle exec rake features spec'
 branches:
   only:
     - master
