@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-group :development do
+group :dev_env do
   gem 'rubocop', '~> 0.22.0'
   gem 'guard-rspec', '~> 4.2.9'
   gem 'guard-cucumber', '~> 1.4.1'
