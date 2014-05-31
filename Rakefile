@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'bundler/gem_tasks'
 require 'cucumber'
 require 'cucumber/rake/task'

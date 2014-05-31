@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'rpg_dice_roller/version'
 require 'rpg_dice_roller/dice'
 

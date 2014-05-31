@@ -1,3 +1,4 @@
+# coding: utf-8
 module RpgDiceRoller
   # Represents a die with a variable number of faces.
   # The die can be instated with a number of faces,
