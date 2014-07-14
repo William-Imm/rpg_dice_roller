@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['William Immendorf']
   spec.email         = ['will.immendorf@gmail.com']
   # rubocop:disable LineLength
-  spec.summary       = %q(A dice roller intended for use with role-playing games.)
-  spec.description   = %q(A dice roller intended for use with role-playing games. This includes hit confirmation, critical/explosion rules, grouping dice, and other such features.)
+  spec.summary       = 'A dice roller intended for use with role-playing games.'
+  spec.description   = 'A dice roller intended for use with role-playing games. This includes hit confirmation, critical/explosion rules, grouping dice, and other such features.'
   # rubocop:enable LineLength
   spec.homepage      = 'https://github.com/William-Imm/rpg_dice_roller'
   spec.license       = 'MIT'
