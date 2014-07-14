@@ -36,3 +36,8 @@ begin
 rescue LoadError
   $stderr.puts 'YARD cannot be loaded. Documentation generation is disabled.'
 end
+
+desc 'Runs all tests'
+task test: [:features, :spec, :rubocop]
+
+task default: :test

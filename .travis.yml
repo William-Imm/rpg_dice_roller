@@ -8,7 +8,6 @@ rvm:
 bundler_args: --without dev_env
 jdk:
   oraclejdk7
-script: 'bundle exec rake features spec rubocop'
 branches:
   only:
     - master
