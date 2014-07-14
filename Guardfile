@@ -25,3 +25,10 @@ group :test_and_refactor, halt_on_fail: true do
     watch(/^.+\.gemspec/)
   end
 end
+
+guard :yard do
+  watch(%r{app/.+\.rb})
+  watch(%r{lib/.+\.rb})
+  watch(%r{ext/.+\.c})
+  watch('README.md')
+end
