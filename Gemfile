@@ -13,4 +13,9 @@ group :guard do
   gem 'guard-yard', '~> 2.1.1'
 end
 
+group :debugging do
+  gem 'byebug', '~> 3.1.2'
+  gem 'ruby-prof', '~> 0.15.1'
+end
+
 gemspec

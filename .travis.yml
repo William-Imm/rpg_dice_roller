@@ -5,7 +5,7 @@ rvm:
   - 1.9.3
   - jruby-19mode
   - rbx-2
-bundler_args: --without documentation guard
+bundler_args: --without documentation guard debugging
 jdk:
   oraclejdk7
 branches:
