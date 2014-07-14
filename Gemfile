@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
-group :dev_env do
+group :documentation do
   gem 'yard', '~> 0.8.7.4'
+  gem 'kramdown', '~> 1.4.0'
+end
+
+group :guard do
   gem 'guard-rspec', '~> 4.2.9'
   gem 'guard-cucumber', '~> 1.4.1'
   gem 'guard-bundler', '~> 2.0.0'
