@@ -13,7 +13,7 @@ RSpec::Core::RakeTask.new(:spec) do |spec|
   spec.ruby_opts = %w(-w)
 end
 
-Rubocop::RakeTask.new
+RuboCop::RakeTask.new
 
 begin
   require 'yard'
