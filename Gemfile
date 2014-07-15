@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 group :documentation do
   gem 'yard', '~> 0.8.7.4'
   gem 'kramdown', '~> 1.4.0'
+  gem 'yard-cucumber', '~> 2.3.2'
 end
 
 group :guard do
