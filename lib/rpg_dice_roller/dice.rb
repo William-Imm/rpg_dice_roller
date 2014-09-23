@@ -3,20 +3,18 @@ module RpgDiceRoller
   # Represents a die with a variable number of faces.
   # The die can be instated with a number of faces,
   # represented by a number, or by a d-notation string.
-  #--
-  # However, it might be better to move the regex dice processing
-  # to another part, and just have the dice take in a hash.
-  #++
   # == Example:
   #   die = RpgDiceRoller::Dice.new(20)
   #   die.faces   #=> 20
   #   die.roll    #=> random number between 1 and 20
+  # @author William Immendorf
   class Dice
     # The number of faces the die has.
     attr_accessor :faces
 
-    # Creates a die.
-    # The number of faces can be inputted as a number or as a string of the format "{x}d{x}".
+    # Creates a die with a number of faces.
+    #
+    # @param faces [Number, String] the number of faces the die has. This number must be greater than 0.
     def initialize(faces)
       if faces.is_a? Fixnum
         @faces = faces
@@ -27,7 +25,8 @@ module RpgDiceRoller
     end
 
     # Rolls the dice.
-    # This returns a random number between 1 and @faces.
+    #
+    # @return [Number] a result between 1 and @faces
     def roll
       rand(faces) + 1
     end

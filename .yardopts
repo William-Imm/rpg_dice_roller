@@ -1,10 +1,13 @@
 --charset utf-8
 --readme README.md
---markup kramdown
---markup-provider rdiscount
+--markup rdoc
 --default-return ""
 --exclude lib/rpg_dice_roller/version.rb
 --protected
 --no-private
+bin/**/*.rb
+lib/**/*.rb
+features/**/*.feature
+features/**/*.rb
 -
 LICENSE.txt
